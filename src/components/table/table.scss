@@ -1,0 +1,30 @@
+.cellWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.productImg {
+    display: block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.status {
+    padding: 5px;
+    border-radius: 5px;
+
+    &.Approved {
+        color: green;
+        background-color: rgba(0, 100, 0, .2);
+    }
+
+    &.Pending {
+        color: goldenrod;
+        background-color: rgba(184, 134, 11, .2);
+    }
+}
